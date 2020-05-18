@@ -25,7 +25,7 @@ var seattle = {
     getCustPerHour : function() {
         for (var i = 0; i < workHours.length; i++) {
             var perday = Math.floor(Math.random() * (this.MaxCust - this.MinCust + 1)) + this.MinCust;
-            this.custPerHour[i] = Math.floor(perday/14);
+            this.custPerHour[i] = perday;
           }
     //    console.log('perday',perday);
     },
@@ -80,7 +80,7 @@ var Tokyo = {
     getCustPerHour : function() {
         for (var i = 0; i < workHours.length; i++) {
             var perday = Math.floor(Math.random() * (this.MaxCust - this.MinCust + 1)) + this.MinCust;
-            this.custPerHour[i] = Math.floor(perday/14);
+            this.custPerHour[i] = perday;
           }
     //    console.log('perday',perday);
     },
@@ -134,7 +134,7 @@ var Dubai = {
     getCustPerHour : function() {
         for (var i = 0; i < workHours.length; i++) {
             var perday = Math.floor(Math.random() * (this.MaxCust - this.MinCust + 1)) + this.MinCust;
-            this.custPerHour[i] = Math.floor(perday/14);
+            this.custPerHour[i] = perday;
           }
     //    console.log('perday',perday);
     },
@@ -188,7 +188,7 @@ var Paris = {
     getCustPerHour : function() {
         for (var i = 0; i < workHours.length; i++) {
             var perday = Math.floor(Math.random() * (this.MaxCust - this.MinCust + 1)) + this.MinCust;
-            this.custPerHour[i] = Math.floor(perday/14);
+            this.custPerHour[i] = perday;
           }
     //    console.log('perday',perday);
     },
@@ -242,7 +242,7 @@ var Lima = {
     getCustPerHour : function() {
         for (var i = 0; i < workHours.length; i++) {
             var perday = Math.floor(Math.random() * (this.MaxCust - this.MinCust + 1)) + this.MinCust;
-            this.custPerHour[i] = Math.floor(perday/14);
+            this.custPerHour[i] = perday;
           }
     //    console.log('perday',perday);
     },
