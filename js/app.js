@@ -60,10 +60,11 @@ function getTotalsPerDay(){
     for (let index = 0; index < arrLocations.length; index++) {
         total = 0;
         for (let i = 0; i < workHours.length; i++) {
-            total += arrLocations[index].cookis[i]
-            
+            console.log(arrLocations[index].cookis[i])
+            total += arrLocations[index].cookis[i];
+            // console.log(total);
         }
-        arr[index] = total
+        arr[index] = total;
     } 
     return arr; 
 }
@@ -73,13 +74,14 @@ function getTotalsPerhour(){
     var total = 0;
     var sum = 0;
     for (let index = 0; index < workHours.length; index++) {
-        sum += total;
         total = 0;
         for (let i = 0; i < arrLocations.length; i++) {
             total += arrLocations[i].cookis[index]
             
             
         }
+        // console.log(total);
+        sum += total;
         arr[index] = total;
         arr.push(sum);
     } 
