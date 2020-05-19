@@ -40,8 +40,8 @@ h1{
     right: -5%;
 }
 #mainDiv{
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 table{
     border: solid black;
@@ -55,6 +55,7 @@ th{
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-weight: bold;
 }
 td{
     border: solid black;
@@ -64,4 +65,5 @@ td{
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
+    padding: 20px;
 }
