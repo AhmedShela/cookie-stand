@@ -9,29 +9,139 @@
 <body>
     <header>
         <nav id='navHeader'>
+              </div>
             <h1>Salmon Cookies</h1>
+            <div id = 'divBTN'>
+                <div class="dropdown">
+                    <button class="dropbtn">More</button>
+                    <div class="dropdown-content">
+                      <a href="#" onclick="openNav()">&#9776;>Locations</a>
+                      <!-- <a href="#" onclick="openNav()">&#9776;>Link 2</a> -->
+                      <!-- <a href="#" onclick="openNav()">&#9776;>Link 3</a> -->
+                    </div>
+            </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="sales.html">Sales</a></li>
-                <li><input id='searchBox' type="search" name="" id=""></li>
+                <li><input id='searchBox' placeholder="Search.." type="search" name="" id=""></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img id='imgMain' src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="">
+        <nav id = 'navRight'>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li>
+                    <!-- <a href=""></a> -->
+                    <a href="#" class="p-Header" onclick="showArticle(1)">Seattle</a>
+                    <article id='article1'>
+                        <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Contat Us :</b>
+                       <p>Email: Ahmedsh717@gmail.com</br>
+                        Phone:079898512</p>
+                       <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Opening hours</b>
+                       <p>from 6:00 am To 8:00 pm</p>
+                    </article>
+                </li>
+                <li>
+                    <a href="#" class="p-Header" onclick="showArticle(2)">Tokyo</a>
+                    <article id='article2'>
+                        <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Contat Us :</b>
+                       <p>Email: Ahmedsh717@gmail.com</br>
+                        Phone:079898512</p>
+                       <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Opening hours</b>
+                       <p>from 6:00 am To 8:00 pm</p>
+                    </article>
+                </li>
+                <li>
+                    <a href="#" class="p-Header" onclick="showArticle(3)">Dubai</a>
+                    <article id='article3'>
+                        <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Contat Us :</b>
+                       <p>Email: Ahmedsh717@gmail.com</br>
+                        Phone:079898512</p>
+                       <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Opening hours</b>
+                       <p>from 6:00 am To 8:00 pm</p>
+                    </article>
+                </li>
+                <li>
+                    <a href="#" class="p-Header" onclick="showArticle(4)">Paris</a>
+                    <article id='article4'>
+                        <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Contat Us :</b>
+                       <p>Email: Ahmedsh717@gmail.com</br>
+                        Phone:079898512</p>
+                       <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Opening hours</b>
+                       <p>from 6:00 am To 8:00 pm</p>
+                    </article>
+                </li>
+                <li>
+                    <a href="#" class="p-Header" onclick="showArticle(5)">Lima</a>
+                    <article id='article5'>
+                        <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Contat Us :</b>
+                       <p>Email: Ahmedsh717@gmail.com</br>
+                        Phone:079898512</p>
+                       <b>Address :</b>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, necessitatibus?</p>
+                       <b>Opening hours</b>
+                       <p>from 6:00 am To 8:00 pm</p>
+                    </article>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <img class='imgMain' src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="">
         
-        <article>
-            <h3>Salmon</h3>
-            <p>The six species of Pacific salmon (Oncorhynchus) are the following:</b>
-                the sockeye or red salmon (O. nerka),</b>
-                which ranges from the northern Bering Sea to Japan and the Columbia River of the American Northwest;</b>
-                the coho or silver salmon (O. kisutch), ranging from the Bering Sea to Japan and the Salinas River of Monterey Bay;</b>
-                the chum or dog salmon (O. keta), ranging from the Mackenzie and Lena rivers in the southern Arctic southward to Japan and the Rogue River;</b>
-                the king, spring, or chinook salmon (O. tshawytscha), from the Yukon River to China and the Sacramento River;</b>
-                the pink or humpback salmon (O. gorbuscha), from the Arctic to Japan and the Klamath River; and the cherry salmon (O. masu),</b>
-                which is found off Japan. The Atlantic salmon is native to the rivers on both sides of the North Atlantic.</p>
-        </article>
+            <article>
+                <h3>Salmon</h3>
+                <p>The six species of Pacific salmon (Oncorhynchus) are the following:</br>
+                    the sockeye or red salmon (O. nerka),</br>
+                    which ranges from the northern Bering Sea to Japan and the Columbia River of the American Northwest;
+                    the coho or silver salmon (O. kisutch), ranging from the Bering Sea to Japan and the Salinas River of Monterey Bay;
+                    the chum or dog salmon (O. keta), ranging from the Mackenzie and Lena rivers in the southern Arctic southward to Japan and the Rogue River;</b>
+                    the king, spring, or chinook salmon (O. tshawytscha), from the Yukon River to China and the Sacramento River;
+                    the pink or humpback salmon (O. gorbuscha), from the Arctic to Japan and the Klamath River; and the cherry salmon (O. masu),
+                    which is found off Japan. The Atlantic salmon is native to the rivers on both sides of the North Atlantic.</p>
+            </article>
+        </div>
+        <div>
+            <img class='imgMain' src="https://github.com/LTUC/amman-201d5/blob/master/class-08/lab-b/assets/chinook.jpg?raw=true" alt="">
+        
+            <article>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quas expedita quos repellendus architecto vel inventore. Aperiam ipsam, iste aliquid debitis, nemo commodi enim voluptatem minima reprehenderit eligendi error illo.
+                Voluptatem, quod, vitae, rerum quo soluta reiciendis necessitatibus aspernatur rem maxime voluptatibus beatae. Quo doloremque facere, ex atque quibusdam corporis illum, aliquam earum repudiandae sed esse placeat maxime quas quia.
+                Id dolore consequatur enim ipsa vitae. Recusandae earum quod voluptas atque amet cumque, et numquam sunt esse maxime ut, praesentium enim dolorum sint possimus saepe ipsam sequi sed cupiditate minus.
+                Inventore sint facilis tempore id sapiente nisi soluta nulla dolorum impedit suscipit esse enim vel exercitationem omnis cupiditate fuga, fugit ratione consequuntur ducimus? Nostrum quibusdam omnis soluta aliquid fuga quos.</b>
+                    
+            </article>
+        </div>
+        <div id = 'divSidIMG'>
+            <div>
+            <img class="sidIMG" src="https://github.com/LTUC/amman-201d5/blob/master/class-08/lab-b/assets/cutter.jpeg?raw=true" alt="">
+            <img class="sidIMG" src="https://github.com/LTUC/amman-201d5/blob/master/class-08/lab-b/assets/fish.jpg?raw=true" alt="">
+            </div>
+            <div>
+                <img class="sidIMG" src="https://github.com/LTUC/amman-201d5/blob/master/class-08/lab-b/assets/frosted-cookie.jpg?raw=true" alt="">
+            <img class="sidIMG" src="https://github.com/LTUC/amman-201d5/blob/master/class-08/lab-b/assets/shirt.jpg?raw=true" alt="">
+            </div>
+        </div>
     </main>
     <footer>
         <div id='divFooter'>
@@ -53,5 +163,41 @@
             </ul>
         </div>
     </footer>
+    <script>
+        function openNav() {
+          document.getElementById("navRight").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("navRight").style.width = "0";
+        }
+        function showArticle(linkID){
+            document.getElementById("article1").style.display ='none';
+            document.getElementById("article2").style.display ='none';
+            document.getElementById("article3").style.display ='none';
+            document.getElementById("article4").style.display ='none';
+            document.getElementById("article5").style.display ='none';
+            switch (linkID) {
+                case 1:
+                document.getElementById("article1").style.display ='block';
+                    break;
+                case 2:
+                document.getElementById("article2").style.display ='block';
+                    break;
+                case 3:
+                document.getElementById("article3").style.display ='block';
+                    break;
+                case 4:
+                document.getElementById("article4").style.display ='block';
+                    break;
+                case 5:
+                document.getElementById("article5").style.display ='block';
+                    break;
+            
+                default:
+                    break;
+            }
+        }
+        </script>
 </body>
 </html>
