@@ -18,9 +18,52 @@
             </ul>
         </nav>
     </header>
-    <div id = "mainDiv">
-        
-    </div>
+    
+    <main>
+        <div id='divForm'>
+            <form id='frmAdd'>
+                <fieldset>
+                    <legend>Add New Location</legend>
+                    <label class="formLbl" for="locationName">Location name:</label>
+                    <input class="formText" type="text" id="l_Name" name="locationName" required placeholder="Amman" minlength="1" maxlength="10"/>
+
+                    <label class="formLbl" class="formLbl" for="minCust">Minimum Customers:</label>
+                    <input class="formText" type="number" id="l_minCust" name="minCust" required placeholder="1" step="1" min="0" max="10000"/>
+
+                    <label class="formLbl" class="formLbl" class="formLbl" for="maxCust">Maximum Customers:</label>
+                    <input class="formText" type="number" id="l_maxCust" name="maxCust" required placeholder="1" step="1" min="0" max="10000"/>
+
+                    <label class="formLbl" for="avgCookies">AVG Cookies per Sale:</label>
+                    <input class="formText" type="number" id="l_avgCookies" name="avgCookies" required placeholder="1.0" step="0.01" min="0" max="1000"/>
+                    <input id="formbtn" type="submit" value="Add"/>
+                </fieldset>
+
+            </form>
+        </div>
+        <div id='divTable'>
+            <div id="mainDiv"></div>
+        </div>
+    </main>
+    <footer>
+        <div id='divFooter'>
+            <img id='imgLogo' src="https://www.graphicsprings.com/filestorage/stencils/c6e6cb4e19146b0f87b43f2d29b28c54.png?width=500&height=500" alt="">
+            <ul class='ulFooter'>
+                <li class='liFooter'><a href="">Chocolate Chip Cookies</a></li>
+                <li class='liFooter'><a href="">Oatmeal Raisin Cookies</a></li>
+                <li class='liFooter'><a href="">Gingersnaps</a></li>
+            </ul>
+            <ul class='ulFooter'>
+                <li class='liFooter'><a href="">Shortbread Cookies</a></li>
+                <li class='liFooter'><a href="">Peanut Butter Cookies</a></li>
+                <li class='liFooter'><a href="">Whoopie Pies</a></li>
+            </ul>
+            <ul class='ulFooter'>
+                <li class='liFooter'><a href="">Sugar Cookies</a></li>
+                <li class='liFooter'><a href="">Molasses Cookies</a></li>
+                <li class='liFooter'><a href="">Kiss Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="js/app.js"></script>
 </body>
 </html>

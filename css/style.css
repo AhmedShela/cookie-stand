@@ -1,6 +1,7 @@
 body{
     background-color: #f6f6f6;
 }
+
 h1{
     float: left;
     margin-left: 10%;
@@ -26,8 +27,6 @@ h1{
     border-radius: 15px;
 }
 #navHeader{
-    /* margin-top: 2%; */
-    /* margin-left: 10%; */
     background-color: rgb(0, 0, 161);
     height: 10%;
 }
@@ -39,9 +38,39 @@ h1{
     position: relative;
     right: -5%;
 }
+/*********************************************************/
+form{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.formText{
+    margin-bottom:10px ;
+    height: 30px;
+    width: 30%;
+    display: block;
+    
+}
+.formLbl{
+    font-size: 17px;
+    font-weight: bold;
+    /* margin-bottom:10px; */
+}
+fieldset{
+    
+    padding: 10px;
+    border: solid black;
+    width: 50%;
+}
+#formbtn{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+/**********************************************************/
 #mainDiv{
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 table{
     border: solid black;
@@ -66,4 +95,41 @@ td{
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 20px;
+}
+/***************************************/
+.page-footer .footer.content {
+    border-top: none;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 25px;
+}
+footer{
+    position: absolute;
+    background-color: rgb(0, 0, 161);
+    margin-bottom: 0px;
+    width: 100%;
+    height: fit-content;
+}
+#imgLogo{
+    width: 20%;
+    float: left;
+}
+.ulFooter li{
+    width: fit-content;
+    
+}
+.ulFooter li a{
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+}
+.ulFooter li:hover{
+    background-color: violet;
+    border-radius: 15px;
+}
+.ulFooter{
+    float: left;
+    padding-left: 10%;
+    line-height: 250%;
+    margin-top: 2%;
 }
