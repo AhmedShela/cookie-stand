@@ -81,6 +81,8 @@ table{
     color: maroon;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 15px 15px 20px 5px #888888;
+    width: 10%;
+    height: 30%;
 }
 th{
     border: solid black;
@@ -92,6 +94,7 @@ th{
     white-space: nowrap;
     font-weight: bold;
     background-color: rgb(159, 204, 247);
+    
 }
 td{
     border: solid black;
@@ -101,7 +104,7 @@ td{
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding: 20px;
+    padding: 0.5%;
     background-color: rgb(211, 233, 253);
 }
 table tr:hover td{
